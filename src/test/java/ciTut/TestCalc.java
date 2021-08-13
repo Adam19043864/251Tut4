@@ -13,5 +13,13 @@ class TestCalc {
 		int actual = calc.add(2, 2);
 		assertEquals(expected, actual);
 	}
+	
+	@Test
+	void testsub() {
+		Calc calc = new Calc();
+		int expected = 2;
+		int actual = calc.subtract(4, 2);
+		assertEquals(expected, actual);
+	}
 
 }
